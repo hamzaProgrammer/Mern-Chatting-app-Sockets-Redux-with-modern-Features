@@ -1,0 +1,78 @@
+/* main div */
+.mainSigUp{
+    display : flex;
+    background-color : #2d3436;
+    color : #FFFFFF !important;
+    flex-direction : column;
+    border-radius : 5px;
+    justify-content : center;
+}
+
+.innerMainDivOne{
+    display : flex;
+    align-items : center;
+    flex-direction : column;
+    justify-content : center;
+    padding-bottom : 10px;
+    padding-top : 10px
+}
+
+.mainRoe{
+    margin-top : 50px;
+}
+
+.myInput{
+    border-radius : 5px;
+    width : 400px
+}
+
+.signUpBtn{
+    background-color : #27ae60;
+    color : #FFFFFF;
+    box-shadow: none;
+    border-radius : 5px;
+    font-weight : 600;
+    border: none;
+    margin-top : 15px;
+}
+.signUpBtn:hover{
+    background-color : #FFFFFF;
+    color : #27ae60;
+}
+
+
+@media screen and (min-width : 2000px){
+    .myInput{
+        width : 600px;
+    }
+}
+
+@media screen and (max-width : 1600px){
+    .myInput{
+        width : 470px;
+    }
+}
+
+@media screen and (max-width : 1400px){
+    .myInput{
+        width : 400px;
+    }
+}
+
+@media screen and (max-width : 1024px){
+    .myInput{
+        width : 370px;
+    }
+}
+
+@media screen and (max-width : 768px){
+    .myInput{
+        width : 320px;
+    }
+}
+
+@media screen and (max-width : 320px){
+    .myInput{
+        width : 260px;
+    }
+}

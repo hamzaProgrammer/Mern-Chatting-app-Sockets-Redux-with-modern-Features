@@ -1,0 +1,32 @@
+/* main div */
+.blackDiv{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-color : #222E35;
+    height : 100vh;
+    flex-direction : column;
+}
+
+.blankHead{
+    font-size : 24px;
+    font-weight : 600;
+    color : #FFFFFF;
+    border-bottom : 2px solid #0984e3;
+    margin-bottom : 20px;
+}
+
+.blankHeadTo{
+    font-size : 16px;
+    font-weight : 500;
+    color : #12CBC4;
+    margin-bottom : 20px;
+}
+
+.blankText{
+    font-size : 15px;
+    color : #FFFFFF;
+    font-weight : 400;
+    text-align :center;
+    max-width : 500px;
+}

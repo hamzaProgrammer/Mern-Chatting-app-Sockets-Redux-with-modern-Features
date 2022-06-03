@@ -1,0 +1,18 @@
+/* main div */
+.searchDiv{
+    padding-left : 10px;
+    padding-right : 10px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    border-top : 1px solid #636e72;
+    border-bottom : 1px solid #636e72;
+    height : 55px;
+}
+
+.searchField{
+    border-radius : 7px;
+    height : 35px;
+    background-color : #2f3640 !important;
+    border: 1px solid #636e72;
+    color : #FFFFFF;
+}

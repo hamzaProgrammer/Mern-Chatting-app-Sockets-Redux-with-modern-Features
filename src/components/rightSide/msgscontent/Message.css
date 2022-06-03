@@ -1,0 +1,36 @@
+.message{
+    display : flex;
+    flex-direction: column;
+    margin-right : 500px;
+    background-color: #202C33;
+    margin-left : 20px;
+    margin-top : 15px;
+    border-radius : 5px;
+    padding: 5px;
+    align-items: flex-start;
+}
+
+.messText{
+    font-size : 13px;
+    color : #FFFFFF;
+    width : 95%
+}
+
+.messtime{
+    color : #FFFFFF;
+    margin-top : 5px;
+    font-size : 11px;
+    margin-left : auto;
+}
+
+.own{
+    margin-left  : 500px !important;
+    margin-right : 20px;
+    background-color: #005C4B;
+}
+
+.moreIcon{
+    font-size : 30px;
+    cursor : pointer;
+}
+

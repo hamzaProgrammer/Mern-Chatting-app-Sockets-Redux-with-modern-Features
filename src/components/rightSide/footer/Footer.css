@@ -1,0 +1,33 @@
+.footer{
+    display : flex;
+    border-top : 1px solid #747d8c;
+    margin-left : -50px;
+    margin-right : -50px;
+    padding-left : 10px;
+    padding-right : 30px;
+    padding-top : 15px;
+    margin-top : -25px;
+}
+
+.sendMessageInput{
+    border-radius : 10px !important;
+    background-color: transparent;
+    margin-right : 25px;
+    color : #FFFFFF;
+    border: 1px solid #576574;
+}
+
+.sendBtn{
+    background-color : #20bf6b;
+    color : #FFFFFF;
+    font-weight : 600;
+    box-shadow: none;
+    border : none;
+    margin-top :3px;
+    border-radius :5px
+}
+
+.sendBtn:hover{
+    background-color : #FFFFFF;
+    color : #84817a;
+}

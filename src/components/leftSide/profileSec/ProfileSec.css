@@ -1,0 +1,140 @@
+/* main div */
+.profileSec{
+    display : flex;
+    justify-content: space-between;
+    align-items : center;
+    height : 60px;
+    padding-left : 10px;
+    padding-right: 10px;
+}
+
+.userImg{
+    border-radius : 50%;
+    width : 42px;
+    height : 42px
+}
+
+.addChartIcon{
+    color : #ecf0f1;
+    font-size : 22px;
+    cursor : pointer
+}
+
+.menuItemsProfile{
+    height : 35px !important;
+    font-size : 15px !important;
+    font-weight : 600 !important;
+    background-color : #202C33;
+    color : #FFFFFF !important;
+    border-bottom : 1px solid #FFFFFF;
+}
+
+.menuItemsProfile:hover{
+    background-color : #FFFFFF;
+    color : #202C33 !important
+}
+
+.rightDrawerDiv{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    padding : 10px;
+    flex-direction: column;
+}
+.mainRigtHead{
+    font-size : 20px;
+    font-weight : 600;
+    color : #FFFFFF;
+    padding-bottom : 10px;
+    width : 100%;
+}
+
+.moreDrawersHead{
+    display : flex;
+    flex-direction: column;
+    margin-top : 15px;
+    height : 87.5vh;
+    width : 100%;
+    background-color : #0D161C;
+}
+
+.drswerRightUserName{
+    font-size : 17px;
+    font-weight : 600;
+    color : #FFFFFF;
+}
+
+.drswerRightUserstatus{
+    font-size : 12px;
+    font-weight : 400;
+    color : #dcdde1;
+}
+
+.nameUpdate{
+    border-radius : 5px;
+    background-color : transparent;
+    color : #FFFFFF;
+    min-width : 100%;
+    border : 1px solid #b2bec3;
+    text-align: center;
+    margin-left : -20px;
+    margin-right : -20px;
+}
+
+.updareProf{
+    background-color : #e17055;
+    color : #FFFFFF;
+    font-weight : 600;
+    border: none;
+    border-radius : 5px;
+    margin-top : 20px;
+}
+.updareProf:hover{
+    background-color : #FFFFFF;
+    color : #e17055;
+}
+
+.acceptBtn{
+    background-color : #00b894;
+    color : #FFFFFF;
+    font-weight : 600;
+    box-shadow: none;
+    font-size : 12px;
+    height : 25px;
+    border: none
+}
+
+.acceptBtn:hover{
+    background-color : #FFFFFF;
+    color : #00b894;
+}
+
+.rejectBtn{
+    background-color : #d63031;
+    color : #FFFFFF;
+    font-weight : 600;
+    box-shadow: none;
+    font-size : 12px;
+    height : 25px;
+    border: none;
+    margin-top : 2px;
+}
+
+.rejectBtn:hover{
+    background-color : #FFFFFF;
+    color : #d63031;
+}
+
+/* .menuItem{
+    max-width : 250px;
+    max-height : 80px;
+    height : 70px;
+    margin : 0;
+    padding : 0;
+    border-bottom : 1px solid #ecf0f1
+} */
+
+.menuItem:hover{
+    background-color : #FFFFFF !important;
+    color : #0D161C !important;
+}

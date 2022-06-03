@@ -1,0 +1,179 @@
+/* main div */
+.rightHeader{
+    display : flex;
+    justify-content: space-between;
+    height : 61px;
+    margin-left : -50px;
+    margin-right : -50px;
+    padding-right : 20px;
+    border-bottom: 1px solid #57606f;
+}
+
+.CUserName{
+    font-size : 18px;
+    font-weight : 600;
+    margin-left : 10px;
+    margin-top : -18px;
+    color : #FFFFFF;
+}
+
+.ClastSeen{
+    font-size : 11px;
+    margin-top : -40px;
+    color : #a4b0be;
+    margin-left : 12px
+}
+
+.rightSideHeadicons{
+    font-size : 22px;
+    cursor : pointer;
+    color : #FFFFFF
+}
+
+.giveDist{
+    padding-left : 15px;
+    padding-right : 20px !important;
+    padding-top : 7px;
+}
+
+.rightSideHeadiconsOne{
+    margin-bottom : 50px !important;
+}
+
+.mainInfoDiv{
+    display : flex;
+    flex-direction: column;
+    padding-top : 10px;
+}
+
+.userDrawerInfo{
+    display : flex;
+    flex-direction: column;
+    margin-top : -20px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom : 10px;
+    background-color : #0D161C
+}
+
+.contactTitle{
+    font-size : 17px;
+    font-weight : 600;
+    text-align: center;
+    padding-top : 10px;
+    margin-bottom : 20px;
+    color : #FFFFFF;
+    padding-bottom : 13px;
+    border-bottom : 1px solid #576574
+}
+
+.drawerUserName{
+    font-size : 17px;
+    font-weight : 600;
+    color : #FFFFFF;
+    margin-top : 10px;
+}
+
+.drawerUserNo{
+    font-size : 13px;
+    color : #FFFFFF;
+}
+
+.drawerUserStatusHead{
+    text-align: left;
+    font-size : 15px;
+    color : #FFFFFF;
+    font-weight : 600
+}
+
+.drawerUserStatus{
+    font-size : 13px;
+    margin-top : 10px;
+    font-weight : 400;
+    color : #c8d6e5;
+    text-align: center;
+    padding-left : 10px;
+    padding-right: 10px
+}
+
+.blockUser{
+    background-color: #c23616;
+    color : #FFFFFF;
+    font-weight : 600;
+    font-size : 15px;
+    box-shadow: none;
+    text-align: center;
+    justify-content: center;
+    border-radius : 5px;
+    margin-top : 10px;
+}
+.blockUser:hover{
+    background-color: #FFFFFF;
+    color : #c23616;
+}
+
+.blockIcon{
+    color : #FFFFFF;
+    font-size : 17px;
+    margin-bottom : -3px;
+    margin-right: 5px
+}
+.blockUser:hover .blockIcon{
+    color : #c23616;
+}
+
+.delChatUser{
+    background-color: #e55039;
+    color : #FFFFFF;
+    font-weight : 600;
+    font-size : 15px;
+    box-shadow: none;
+    text-align: center;
+    justify-content: center;
+    border-radius : 5px;
+    
+}
+.delChatUser:hover{
+    background-color: #FFFFFF;
+    color : #e55039;
+}
+
+.delChatUser:hover .blockIcon{
+    color : #c23616;
+}
+
+.serachMesg{
+    border-radius : 7px;
+    height : 35px;
+    background-color : #2f3640 !important;
+    border: 1px solid #636e72;
+    color : #FFFFFF;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    margin-bottom : 15px;
+}
+
+.searchMsg{
+    display : flex;
+    flex-direction: column;
+    margin-top : 10px;
+    border-bottom: 1px solid #636e72
+}
+
+.searchMsgDate{
+    font-size : 12px;
+    color : #dcdde1;
+    text-align: start !important;
+    padding-left : 5px
+}
+
+.searchMsgText{
+    font-size : 13px;
+    color : #FFFFFF;
+    padding-bottom : 10px;
+    padding-left : 10px;
+    padding-right : 10px;
+    text-align: center
+}
+
