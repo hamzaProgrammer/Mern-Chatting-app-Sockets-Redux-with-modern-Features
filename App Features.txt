@@ -1,0 +1,31 @@
+
+        ===>>>   WhatsApp Web App 2.0     <<<<===
+
+
+1-  React js (Ant Design Library is used)
+2-  Node js (Express.js) is used as a backend language
+3-  MongoDb is used as Database
+4-  Redux is used in whole app for state management.
+5-  Socket is implemented for real time chatting and other real time functionalities. Some of functionalities are listed below:
+
+
+    ===>>>  Important Features   <<<===
+
+==>  User Active/Online Status changes to active when user has Focused/active tab in which this app is opened.
+==>  User's friends active status is shown to user and changes in real time.
+==>  Any user can not connect with other user directly, instead he/she has to send any message to user to which
+     he/she is willing to connect. When message is sent, a notification is sent to Receiver in his/her account,
+     as well as an email is sent to receiver email.
+==>  if Friend to which user has sent message has not not opened his/her chat, receiver will also be shown message
+     and sender name via push notifications.
+==>  User Can Update his/her Profile Details.
+==>  User can also restrict other users to send request to him/her.
+==>  User can also prevent his image or Profile being shown on search.
+==>  User can search new users by typing there names.
+==>  User can also block or un block any other user
+==>  User Can also Delete any one message (which he/she has sent only) or whole chat by just one click.
+==>  User can also delete his/her account.
+==>  Upon Receiving connection request, user can block sender or accept his/her request user also.
+==>  On Accepting Sender request, both users will be added to their friends list.
+==>  User can Search Any message in a chat in real time. (data is being fetched from server in real time).
+==>  User can also see profile details of any other user and some more.
